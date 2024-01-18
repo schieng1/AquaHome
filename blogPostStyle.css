@@ -1,0 +1,434 @@
+@charset "UTF-8";
+#mainwrapper header {
+    /*Header */
+    background-color: #3469cb;
+    overflow: auto;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#mainwrapper header #logo {
+    /* Company Logo text */
+    width: 2px;
+    float: left;
+    padding-left: 2%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #FFFFFF;
+}
+#mainwrapper header nav {
+    /*Nav bar containing links in header */
+    text-decoration-color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    padding-right: 2%;
+    width: 0%;
+    float: left;
+    color: #FFFFFF;
+    padding-left: 2%;
+}
+header .bar a {
+    color: #FFA500;
+    background-color: #3469cb;
+}
+.bar a:hover {
+    background-color: #FFA300;
+    color: #3469cb;
+}
+a:hover {
+    color: #FFA300;
+    background-color: #3469cb;
+}
+#nav ul li:hover  {
+    color: #FFA300;
+    background-color: #3469cb;
+}
+header nav a {
+    /* Links in header */
+    padding-right: 2%;
+    background-color: #FFFFFF;
+    background-image: none;
+    color: #FFFFFF;
+    text-emphasis-color: #FFFFFF;
+    font-size: 20px;
+    width: 50%;
+    padding-bottom: 2%;
+    padding-left: 2px;
+    padding-top: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#content #mainContent h1, #content #mainContent h2 {
+    /* Styling for main headings */
+    color: rgba(0,0,0,1.00);
+    padding: 0px;
+    font-size: 100px;
+}
+#mainContent h1 {
+    font-size: 100px;
+    text-align: center;
+}
+#content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
+    color: rgba(255,255,255,1.00);
+    padding-left: 2%;
+    padding-top: 11px;
+    text-align: center;
+    font-size: 50px;
+}
+#content {
+    font-size: 100px;
+}
+#mainContent h1 {
+    text-align: center;
+}
+#mainwrapper #mainContent h3 {
+    font-size: 100px;
+    text-align: center;
+    float: left;
+}
+#content #mainContent h3 {
+    font-style: normal;
+    font-weight: 200;
+    color: rgba(0,0,0,1.00);
+    font-size: 50px;
+    float: left;
+    text-align: center;
+}
+#content #mainContent #bannerImage {
+	/*Container for main banner image */
+	width: 100%;
+	background-color: rgba(208,207,207,1.00);
+}
+#content #mainContent p {
+    /* All paragraphs under maincontent */
+    color: rgba(0,0,0,1.00);
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+    float: left;
+}
+#mainwrapper #mainContent p {
+    font-size: 25px;
+}
+#mainwrapper #mainContent h1 {
+    font-size: 100px;
+    text-align: center;
+}
+#content #mainContent h3 {
+    color: rgba(0,0,0,1.00);
+}
+#content #mainContent #authorInfo {
+	/* Author info section */
+	background-color: rgba(208,207,207,1.00);
+}
+#mainContent h1 {
+    text-align: 100px;
+}
+#content #mainContent #authorInfo p {
+	color: rgba(255,255,255,1.00);
+	padding-left: 2%;
+	padding-top: 0px;
+	padding-bottom: 11px;
+	padding-right: 2%;
+}
+footer article {
+	/* Footer articles */
+	width: 46%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: justify;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+}
+footer article h3 {
+	/* Footer article titles */
+	text-align: center;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+#mainContent {
+    /* Container for the blog post in individal blog view */
+    padding-left: 0%;
+    width: 55%;
+    float: left;
+    padding-right: 0%;
+    padding-top: 1%;
+}
+#mainwrapper #content #sidebar {
+    /* Sidebar*/
+    width: 19%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+    background-color: #5B87D9;
+    margin-top: 30px;
+    padding-top: 32px;
+	font-size: 25px;
+}
+#mainwrapper #sidebar {
+}
+#mainwrapper {
+	/* Container of all content */
+	width: 100%;
+	overflow: auto;
+
+}
+#content #sidebar input {
+	/* Search box in sidebar */
+	width: 98%;
+	height: 32px;
+}
+#content #sidebar #adimage {
+	/* Container for Image in sidebar */
+	width: 100%;
+	background-color: rgba(208,207,207,1.00);
+	margin-top: 46px;
+	float: none;
+	overflow: auto;
+}
+nav ul p {
+}
+nav ul li {
+	list-style-type: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+nav ul {
+	padding-left: 0%;
+}
+nav ul li a {
+    color: rgba(255,255,255,1.00);
+    text-decoration: none;
+}
+#footerbar {
+	/* Footer bar at the bottom of the page */
+	height: 18px;
+	clear: both;
+	background-color: rgba(208,207,207,1.00);
+	width: 100%;
+}
+#content footer .footerDisclaimer {
+    padding: 2%;
+    background-color: #3469cb;
+    color: #FFFFFF;
+    font-size: 20px;
+    float: left;
+    width: 1000px;
+    text-align: center;
+}
+#content footer hr {
+    width: 1000px;
+}
+footer {
+	/* Container for footer artices */
+	width: 71%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.notOnDesktop {
+	/*element to be displayed only in mobile view and tabet view */
+	display: none;
+}
+#mainContent #bannerImage img {
+	/* Actual banner image */
+	width: 100%;
+}
+#sidebar #adimage img {
+	/* Image in sidebar */
+	width: 100%;
+	float: left;
+}
+#mainwrapper header nav a {
+    /* Links in header */
+    color: rgba(255,255,255,1.00);
+    text-decoration: none;
+}
+#mainwrapper header .bar {
+    width: 85%;
+    float: right;
+}
+header .bar .home {
+    color: #FFFFF;
+}
+body footer p {
+    text-align: center;
+}
+#FlashID object div {
+    text-align: center;
+    line-height: auto;
+}
+p a img {
+}
+body a {
+    font-size: 25px;
+}
+a.skip  {
+    font-size: 25px;
+    padding: 12px 5px;
+    float: left;
+}
+.skip {
+    font-size: 25px;
+}
+.bar .home {
+}
+body a {
+}
+#content #mainContent h1 {
+    background-attachment: fixed;
+    background-image: inherit;
+}
+#mainContent img {
+    align-content: center;
+}
+#content #mainContent .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+   
+/* Tablet view */
+@media screen and (max-width:769px) {
+.notOnDesktop {
+	display: block;
+	text-align: right;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 96%;
+}
+#content .notOnDesktop input {
+	height: 28px;
+}
+#mainContent {
+	/* Container for the blog post */
+	padding-top: 0px;
+	float: none;
+	width: 96%;
+}
+#sidebar input {
+	/* Search box in sidebar */
+	display: none;
+}
+#mainwrapper #content #sidebar {
+	/* Sidebar*/
+	float: none;
+	width: 92%;
+	padding-top: 13px;
+	overflow: auto;
+	margin-top: 3px;
+	margin-left: 2%;
+	padding-bottom: 13px;
+}
+#content #sidebar #adimage {
+	/* Image in sidebar */
+	width: 60%;
+	margin-top: 0px;
+	float: left;
+}
+#content #sidebar nav {
+    /* Navigation links in sidebar */
+    width: 36%;
+    padding-left: 4%;
+    float: left;
+}
+#sidebar nav ul {
+	margin-top: 0px;
+}
+#sidebar p {
+    word-spacing: 30px;
+}
+footer {
+	/* Footer region */
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#content footer article {
+	/*Each footer article */
+	width: 46%;
+}
+#mainwrapper header {
+	/* Header */
+	width: 100%;
+}
+.home {
+}
+
+/* Mobile view */
+@media screen and (max-width:480px) {
+#mainwrapper header #logo {
+	/* Company Logo text in header */
+	width: 96%;
+	margin-left: 2%;
+}
+#mainwrapper header nav {
+	/*navigation links in header */
+	text-align: center;
+	background-color: rgba(255,255,255,1.00);
+	width: 50%;
+}
+#content #sidebar #adimage {
+	/* Container for image in sidebar */
+	width: 100%;
+}
+#content #sidebar nav {
+	/* Navigation bar for links in sidebar */
+	width: 60%;
+	padding-top: 7px;
+}
+#sidebar nav ul li {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+#mainwrapper #content #sidebar {
+	/* sidebar */
+	padding-bottom: 0px;
+}
+#content .notOnDesktop {
+	/* Search box shown only in mobile and tablet view */
+	width: 100%;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#content .notOnDesktop input {
+	width: 80%;
+	text-align: center;
+}
+#content #mainContent h3 {
+	/* Title under maincontent, if any */
+	font-size: 14px;
+}
+ #content footer article {
+	/* Each foter article */
+	width: 96%;
+	}
+#mainwrapper #mainContent p {
+	font-size: 25px;
+}
+.email {
+}
+#mainContent h3 .email {
+}
+
+.bar .home {
+}
+#mainContent h1 {
+}
+body footer {
+}
